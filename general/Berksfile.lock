@@ -1,0 +1,129 @@
+{
+  "sources": {
+    "build-essential": {
+      "locked_version": "1.4.2"
+    },
+    "apt": {
+      "locked_version": "2.3.8"
+    },
+    "mc": {
+      "locked_version": "0.1.0",
+      "git": "https://github.com/lunsher/chef-mc",
+      "ref": "34d161564ff9b5a7984f22da6a8c9bf2df5a30f5"
+    },
+    "zsh": {
+      "locked_version": "1.0.0"
+    },
+    "vagrant-zsh": {
+      "locked_version": "0.1.0",
+      "git": "https://github.com/avalancheau/cookbook-vagrant-zsh",
+      "ref": "5a1970203925eaf526d410830ed24a0cb25d01af"
+    },
+    "oh-my-zsh": {
+      "locked_version": "0.0.1",
+      "git": "https://github.com/shingara/oh-my-zsh-chef",
+      "ref": "46f89c50ce85a098a04b20e7f672be2700083ee9"
+    },
+    "git": {
+      "locked_version": "2.9.0"
+    },
+    "curl": {
+      "locked_version": "1.1.0"
+    },
+    "ntp": {
+      "locked_version": "1.5.4"
+    },
+    "rvm": {
+      "locked_version": "0.9.1",
+      "git": "https://github.com/fnichol/chef-rvm",
+      "ref": "87f58d428c160337c1581ed1130a1a53d94e5126"
+    },
+    "rvm-user": {
+      "locked_version": "0.9.1",
+      "git": "https://github.com/fnichol/chef-rvm",
+      "ref": "87f58d428c160337c1581ed1130a1a53d94e5126"
+    },
+    "nvm": {
+      "locked_version": "0.0.1",
+      "git": "https://github.com/HuzuTech/chef-nvm",
+      "ref": "92ecc134249d2e61f4c149fdf4ae69603c8224bc"
+    },
+    "libxml2": {
+      "locked_version": "0.9.1",
+      "git": "https://github.com/fnichol/chef-rvm",
+      "ref": "87f58d428c160337c1581ed1130a1a53d94e5126"
+    },
+    "mongodb": {
+      "locked_version": "0.13.7"
+    },
+    "redisio": {
+      "locked_version": "1.7.1"
+    },
+    "memcached": {
+      "locked_version": "1.7.2"
+    },
+    "java": {
+      "locked_version": "1.19.2"
+    },
+    "phantomjs": {
+      "locked_version": "1.0.3"
+    },
+    "imagemagick": {
+      "locked_version": "0.2.2"
+    },
+    "chocolatey": {
+      "locked_version": "0.0.5"
+    },
+    "mysql": {
+      "locked_version": "3.0.2"
+    },
+    "postgresql": {
+      "locked_version": "3.3.4"
+    },
+    "heroku": {
+      "locked_version": "0.1.0"
+    },
+    "dmg": {
+      "locked_version": "2.1.4"
+    },
+    "windows": {
+      "locked_version": "1.30.0"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.4"
+    },
+    "runit": {
+      "locked_version": "1.5.8"
+    },
+    "yum": {
+      "locked_version": "3.1.0"
+    },
+    "yum-epel": {
+      "locked_version": "0.3.4"
+    },
+    "chef_gem": {
+      "locked_version": "0.1.0"
+    },
+    "python": {
+      "locked_version": "1.4.6"
+    },
+    "ulimit": {
+      "locked_version": "0.3.2"
+    },
+    "powershell": {
+      "locked_version": "3.0.0"
+    },
+    "ms_dotnet45": {
+      "locked_version": "1.1.2"
+    },
+    "ms_dotnet4": {
+      "locked_version": "1.0.2"
+    },
+    "ms_dotnet2": {
+      "locked_version": "1.0.0"
+    },
+    "openssl": {
+      "locked_version": "1.1.0"
+    }
+  }
+}
