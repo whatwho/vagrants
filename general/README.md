@@ -1,8 +1,8 @@
-# Vagrant @ DiNa
+# General Vagrant Box
 
 ## About
 
-This vagrant box is for Digital Natives Ruby on Rails development. It's a box containing ALL the necessary stuff to be able to work on a DiNa project. It's a temporary solution, the future is to move the virtualization to Docker, and create application related containers.
+This vagrant box is for a general Ruby on Rails development environment. It's a box containing ALL the necessary stuff to be able to work on a Rails project. It's a temporary solution, the future is to move the virtualization to Docker, and create application related containers.
 
 ## Installment
 
@@ -11,6 +11,16 @@ This vagrant box is for Digital Natives Ruby on Rails development. It's a box co
 Vagrant needs a virtualization provider, we support virtualbox. Please download it from [here](https://www.virtualbox.org/wiki/Downloads).
 
 Please also download vagrant from [here](http://downloads.vagrantup.com/)
+
+### Install vagrant plugins ###
+
+Install vagrant-omnibus in order to be sure that the latest chef version will be installed on the vm.
+
+`vagrant plugin install vagrant-omnibus`
+
+Install vagrant-vbguest, so that virtualbox guest additions tools stay up-to-date
+
+`vagrant plugin install vagrant-vbguest`
 
 ### Clone this repository
 
@@ -32,6 +42,7 @@ Install berkshelf gem:
 
 Install berkshelf vagrant plugin:
 
+`vagrant plugin install berkshelf`
 `vagrant plugin install vagrant-berkshelf`
 
 ## Usage

@@ -1,129 +1,107 @@
-{
-  "sources": {
-    "build-essential": {
-      "locked_version": "1.4.2"
-    },
-    "apt": {
-      "locked_version": "2.3.8"
-    },
-    "mc": {
-      "locked_version": "0.1.0",
-      "git": "https://github.com/lunsher/chef-mc",
-      "ref": "34d161564ff9b5a7984f22da6a8c9bf2df5a30f5"
-    },
-    "zsh": {
-      "locked_version": "1.0.0"
-    },
-    "vagrant-zsh": {
-      "locked_version": "0.1.0",
-      "git": "https://github.com/avalancheau/cookbook-vagrant-zsh",
-      "ref": "5a1970203925eaf526d410830ed24a0cb25d01af"
-    },
-    "oh-my-zsh": {
-      "locked_version": "0.0.1",
-      "git": "https://github.com/shingara/oh-my-zsh-chef",
-      "ref": "46f89c50ce85a098a04b20e7f672be2700083ee9"
-    },
-    "git": {
-      "locked_version": "2.9.0"
-    },
-    "curl": {
-      "locked_version": "1.1.0"
-    },
-    "ntp": {
-      "locked_version": "1.5.4"
-    },
-    "rvm": {
-      "locked_version": "0.9.1",
-      "git": "https://github.com/fnichol/chef-rvm",
-      "ref": "87f58d428c160337c1581ed1130a1a53d94e5126"
-    },
-    "rvm-user": {
-      "locked_version": "0.9.1",
-      "git": "https://github.com/fnichol/chef-rvm",
-      "ref": "87f58d428c160337c1581ed1130a1a53d94e5126"
-    },
-    "nvm": {
-      "locked_version": "0.0.1",
-      "git": "https://github.com/HuzuTech/chef-nvm",
-      "ref": "92ecc134249d2e61f4c149fdf4ae69603c8224bc"
-    },
-    "libxml2": {
-      "locked_version": "0.9.1",
-      "git": "https://github.com/fnichol/chef-rvm",
-      "ref": "87f58d428c160337c1581ed1130a1a53d94e5126"
-    },
-    "mongodb": {
-      "locked_version": "0.13.7"
-    },
-    "redisio": {
-      "locked_version": "1.7.1"
-    },
-    "memcached": {
-      "locked_version": "1.7.2"
-    },
-    "java": {
-      "locked_version": "1.19.2"
-    },
-    "phantomjs": {
-      "locked_version": "1.0.3"
-    },
-    "imagemagick": {
-      "locked_version": "0.2.2"
-    },
-    "chocolatey": {
-      "locked_version": "0.0.5"
-    },
-    "mysql": {
-      "locked_version": "3.0.2"
-    },
-    "postgresql": {
-      "locked_version": "3.3.4"
-    },
-    "heroku": {
-      "locked_version": "0.1.0"
-    },
-    "dmg": {
-      "locked_version": "2.1.4"
-    },
-    "windows": {
-      "locked_version": "1.30.0"
-    },
-    "chef_handler": {
-      "locked_version": "1.1.4"
-    },
-    "runit": {
-      "locked_version": "1.5.8"
-    },
-    "yum": {
-      "locked_version": "3.1.0"
-    },
-    "yum-epel": {
-      "locked_version": "0.3.4"
-    },
-    "chef_gem": {
-      "locked_version": "0.1.0"
-    },
-    "python": {
-      "locked_version": "1.4.6"
-    },
-    "ulimit": {
-      "locked_version": "0.3.2"
-    },
-    "powershell": {
-      "locked_version": "3.0.0"
-    },
-    "ms_dotnet45": {
-      "locked_version": "1.1.2"
-    },
-    "ms_dotnet4": {
-      "locked_version": "1.0.2"
-    },
-    "ms_dotnet2": {
-      "locked_version": "1.0.0"
-    },
-    "openssl": {
-      "locked_version": "1.1.0"
-    }
-  }
-}
+DEPENDENCIES
+  apt
+  build-essential
+  chocolatey (= 0.0.5)
+  curl
+  git
+  heroku
+  imagemagick
+  java
+  mc
+    git: https://github.com/lunsher/chef-mc
+    revision: 34d161564ff9b5a7984f22da6a8c9bf2df5a30f5
+  memcached
+  mongodb
+  mysql (= 3.0.2)
+  ntp
+  oh_my_zsh
+    git: https://github.com/shingara/oh-my-zsh-chef
+    revision: 968928adab75902e25bcb71093e0d32b09240b0d
+  phantomjs
+  postgresql
+  redisio
+  rvm
+    git: https://github.com/fnichol/chef-rvm
+    revision: 8a877e9b497f8fb06dfe6f5975561331b3924243
+  vagrant-zsh
+    git: https://github.com/avalancheau/cookbook-vagrant-zsh
+    revision: 5a1970203925eaf526d410830ed24a0cb25d01af
+  zsh
+
+GRAPH
+  apt (2.6.0)
+  build-essential (2.1.2)
+  chef-sugar (2.4.1)
+  chef_gem (0.1.0)
+  chef_handler (1.1.6)
+  chocolatey (0.0.5)
+    powershell (>= 0.0.0)
+  curl (2.0.0)
+  dmg (2.2.0)
+  git (4.0.2)
+    build-essential (>= 0.0.0)
+    dmg (>= 0.0.0)
+    runit (>= 1.0.0)
+    windows (>= 0.0.0)
+    yum (~> 3.0)
+    yum-epel (>= 0.0.0)
+  heroku (0.1.0)
+  imagemagick (0.2.3)
+  java (1.28.0)
+  mc (0.1.0)
+  memcached (1.7.2)
+    runit (~> 1.0)
+    yum (~> 3.0)
+    yum-epel (>= 0.0.0)
+  mongodb (0.16.1)
+    apt (>= 1.8.2)
+    python (>= 0.0.0)
+    runit (>= 1.5.0)
+    yum (>= 3.0)
+  ms_dotnet2 (1.0.0)
+    windows (>= 0.0.0)
+  ms_dotnet4 (1.0.2)
+    windows (>= 0.0.0)
+  ms_dotnet45 (1.1.2)
+    windows (>= 0.0.0)
+  mysql (3.0.2)
+    build-essential (> 1.1.0)
+    openssl (>= 0.0.0)
+  ntp (1.6.5)
+  oh_my_zsh (0.0.1)
+    git (>= 0.0.0)
+  openssl (2.0.0)
+    chef-sugar (>= 0.0.0)
+  phantomjs (1.0.3)
+    build-essential (>= 0.0.0)
+    chocolatey (>= 0.0.0)
+  postgresql (3.4.10)
+    apt (>= 1.9.0)
+    build-essential (>= 0.0.0)
+    openssl (>= 0.0.0)
+  powershell (3.0.7)
+    ms_dotnet2 (>= 0.0.0)
+    ms_dotnet4 (>= 0.0.0)
+    ms_dotnet45 (>= 0.0.0)
+    windows (>= 1.2.8)
+  python (1.4.6)
+    build-essential (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  redisio (2.2.4)
+    build-essential (>= 0.0.0)
+    ulimit (>= 0.1.2)
+  runit (1.5.10)
+    build-essential (>= 0.0.0)
+    yum (~> 3.0)
+    yum-epel (>= 0.0.0)
+  rvm (0.10.1)
+    chef_gem (>= 0.0.0)
+    java (>= 0.0.0)
+  ulimit (0.3.2)
+  vagrant-zsh (0.1.0)
+  windows (1.34.6)
+    chef_handler (>= 0.0.0)
+  yum (3.4.0)
+  yum-epel (0.5.1)
+    yum (~> 3.0)
+  zsh (1.0.0)
